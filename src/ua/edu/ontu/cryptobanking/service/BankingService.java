@@ -29,7 +29,6 @@ public class BankingService {
         users.add(new BusinessUser("U2", "ТОВ 'ООП'", "12345678", "tech@company.ua"));
         users.add(new AdminUser("A1", "Адмін Системи", "admin@bank.ua", "Головний адміністратор"));
 
-        // Початкові баланси для демонстрації
         users.get(0).deposit(10000);
         users.get(1).deposit(50000);
         users.get(2).deposit(1000);
